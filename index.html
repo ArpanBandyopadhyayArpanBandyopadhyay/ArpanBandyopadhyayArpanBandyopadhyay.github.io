@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE LETTER</title>
+    <link rel="stylesheet" href= "my card css.css">
+    
+</head>
+<body>
+    <div class="container">
+    <div class="card">
+        <h1><span class="heart">&hearts;</span>MY DEAR MISTI RANI<span class="heart">&hearts;</span></h1>
+        <b>AMI GO TOMAR HULO,CHINTE PARCHHO?
+           KI KORCHHO GO TUMI? 
+           CLICK KORO TO AMADER CHHOBI TE</b><br>
+                <img src="./IMG_20211220_165144_711.webp" width="300" height="375"><br>
+
+       <span class="heart">&hearts;</span> <span class="heart">&hearts;</span> <span class="heart">&hearts;</span>
+            <span class="heart">&hearts;</span> <span class="heart">&hearts;</span> <span class="heart">&hearts;</span>
+            <span class="heart">&hearts;</span> <span class="heart">&hearts;</span> <span class="heart">&hearts;</span>
+            <span class="heart">&hearts;</span> <span class="heart">&hearts;</span> <span class="heart">&hearts;</span>
+            <span class="heart">&hearts;</span> <span class="heart">&hearts;</span> <span class="heart">&hearts;</span>
+            <span class="heart">&hearts;</span> <span class="heart">&hearts;</span> <span class="heart">&hearts;</span><br>
+        <b class="signature"><span class="heart">&hearts;</span>Your Hulo<span class="heart">&hearts;</span></b>
+    </div>
+    <div class="card back">
+        <h2>AMI TOMAR HULO GO</h2>
+        <p>AMAR MISTIR JONNO EKTA CHHOTO UPOHAR</p>         
+        <p>sei j sedin<br>tormar amar Prothom dekha,
+            ektu voi, ektu anando ar buk vora utkonthha.<br>
+            mone ache oi j sedin!<br>ami lojjar mathe kheye
+            lok vora brize<BR>kane kotha bolte giye<br>
+            misti kore amar misti ke,<br> akta misti chumu kheyechhilam.<br>
+            tokhon tomar muk khana komlalebur moto lal hoye geslo,<br>
+            amio lojja peyechhilam,
+            <br>oi din er oi ektu khani somoi<br>jeno sob kichhu hater muthoi ene diyechhlo.<br>
+            <span class="heart">&hearts;</span>oi misti CSK jitlo to bollam khepi ta<span class="heart">&hearts;</span>
+            MISTI AMI TOMAKE KHUB VALOBASI<BR>SARA JIBON JORIRE DHORE AGLE RAKBO<P><span class="heart">&hearts;</span>
+            <span class="heart">&hearts;</span> <span class="heart">&hearts;</span> <span class="heart">&hearts;</span></p>
+                
+        </p> 
+   
+    </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const container = document.querySelector('.container');
+          const pages = document.querySelectorAll('.card');
+        
+          let isFlipped = false;
+        
+          container.addEventListener('click', function() {
+            if (!isFlipped) {
+              pages[0].classList.add('back');
+              pages[1].classList.remove('back');
+            } else {
+              pages[1].classList.add('back');
+              pages[0].classList.remove('back');
+            }
+            isFlipped = !isFlipped;
+          });
+        });
+        </script>
+</body>
+</html>
